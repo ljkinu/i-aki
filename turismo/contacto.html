@@ -66,9 +66,28 @@
     <title>Mi página</title>
 </head>
 <body>
-    <h1>Verificar Edad</h1>
 
     <script src="mallor.ts"></script>
+    
+    <form action="confirmacion.html" method="POST">
+  <form action="procesar_formulario.php" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    
+    <label for="mensaje">Mensaje:</label>
+    <textarea name="mensaje" id="mensaje" required></textarea>
+    
+    <input type="submit" value="Enviar">
+  </form>
+  <!-- Aquí van los campos del formulario -->
+  <br>
+<hr>
+<br>
+
+
 </body>
 </html>
 
@@ -96,6 +115,11 @@
     </table>
 </body>
 </html>
+
+
+
+
+
 
   </section>
 </body>
