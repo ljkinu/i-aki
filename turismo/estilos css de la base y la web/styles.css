@@ -1,0 +1,144 @@
+code{
+  background-color: #859ead;
+  color: #698dda;
+
+}
+.br {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #e83e8c;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: inline-block;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section img {
+    width: 25%;
+    display: inline-block;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #mapa {
+    height: 100vh;
+    width: 100%;
+    background-image: url(mapa.jpg);
+    background-size: cover;
+  }
+
+  .info {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  .info h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .info p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .pie-pagina {
+    background-color: #b81b1b;
+    color: #181010;
+    padding: 40px 0;
+  }
+  
+  .contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .redes-sociales {
+    display: flex;
+  }
+  
+  .boton-facebook, .boton-twitter {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .boton-facebook:hover, .boton-twitter:hover {
+    background-color: #ccc;
+  }
+  
+  .boton-facebook {
+    background-color: #3b5998;
+    color: #fff;
+  }
+  
+  .boton-twitter {
+    background-color: #1da1f2;
+    color: #fff;
+  }
+  
+  .pie-pagina p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

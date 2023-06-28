@@ -1,0 +1,1 @@
+SELECT * FROM bd_turismorio3.`turismo rió tercero`;
